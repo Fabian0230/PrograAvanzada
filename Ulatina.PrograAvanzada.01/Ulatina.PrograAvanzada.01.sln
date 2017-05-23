@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.01",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.HelloWorld", "Ulatina.PrograAvanzada.HelloWorld\Ulatina.PrograAvanzada.HelloWorld.csproj", "{82189A67-CEAA-4AAA-A424-DCC9FB1AFF6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.AplicacionWeb", "Ulatina.PrograAvanzada.AplicacionWeb\Ulatina.PrograAvanzada.AplicacionWeb.csproj", "{3F37EC59-1F6A-4361-BD58-8C87250CD973}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{82189A67-CEAA-4AAA-A424-DCC9FB1AFF6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82189A67-CEAA-4AAA-A424-DCC9FB1AFF6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82189A67-CEAA-4AAA-A424-DCC9FB1AFF6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
