@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.01", "Ulatina.PrograAvanzada.01\Ulatina.PrograAvanzada.01.csproj", "{EF87A784-5098-4E98-9825-153EB705A4E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.HelloWorld", "Ulatina.PrograAvanzada.HelloWorld\Ulatina.PrograAvanzada.HelloWorld.csproj", "{82189A67-CEAA-4AAA-A424-DCC9FB1AFF6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.AplicacionWeb", "Ulatina.PrograAvanzada.AplicacionWeb\Ulatina.PrograAvanzada.AplicacionWeb.csproj", "{3F37EC59-1F6A-4361-BD58-8C87250CD973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ulatina.PrograAvanzada.BLAplicacionWeb", "Ulatina.PrograAvanzada.BLAplicacionWeb\Ulatina.PrograAvanzada.BLAplicacionWeb.csproj", "{2F1B9864-758D-4351-98E7-CEC3A5F99591}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F37EC59-1F6A-4361-BD58-8C87250CD973}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F1B9864-758D-4351-98E7-CEC3A5F99591}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F1B9864-758D-4351-98E7-CEC3A5F99591}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F1B9864-758D-4351-98E7-CEC3A5F99591}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F1B9864-758D-4351-98E7-CEC3A5F99591}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
