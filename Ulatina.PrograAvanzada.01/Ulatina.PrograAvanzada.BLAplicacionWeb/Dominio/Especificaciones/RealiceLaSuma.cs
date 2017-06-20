@@ -5,15 +5,13 @@ using System.Web;
 
 namespace Ulatina.PrograAvanzada.BLAplicacionWeb.Dominio.Especificaciones
 {
-    public class ObtengaLaFecha
+    public class RealiceLaSuma
     {
         //Especificacion
-        public string FormatearUnaFecha(DateTime laFecha,string elFormato)
+
+        public double Calcule(double valor1, double valor2)
         {
-
-            return "";
+            return valor1 + valor2;
         }
-
-       
     }
 }

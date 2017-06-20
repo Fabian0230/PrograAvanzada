@@ -12,7 +12,7 @@ namespace Ulatina.PrograAvanzada.BLAplicacionWeb.Dominio.Acciones
         {
             //Formas de declarar un objeto
             //Especificaciones.ObtengaFecha laEspecificacion = new Especificaciones.ObtengaFecha();
-            var laEspecificacion = new Especificaciones.ObtengaFecha();//indica que va a recibir una variable del tipo clase
+            var laEspecificacion = new Especificaciones.ObtengaLaFecha();//indica que va a recibir una variable del tipo clase
             string laFecha = laEspecificacion.FormatearUnaFecha(DateTime.Now, "dd/mm/yyyy");
             return laFecha;
         }

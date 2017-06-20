@@ -15,7 +15,16 @@ namespace Ulatina.PrograAvanzada.BLAplicacionWeb
         //interfaz define el metodo, que se implementa en servicios
         [OperationContract]
         string WhatDayIsToday();
-        
+
+        [OperationContract]//hace que este disponible por wcf
+        double Sumar(double valor1, double valor2);
+        //[OperationContract]
+        //double Restar(double valor1, double valor2);
+        //[OperationContract]
+        //double Multiplicar(double valor1, double valor2);
+        //[OperationContract]
+        //double Dividir(double valor1, double valor2);
+
         [OperationContract]
         string GetData(int value);
 

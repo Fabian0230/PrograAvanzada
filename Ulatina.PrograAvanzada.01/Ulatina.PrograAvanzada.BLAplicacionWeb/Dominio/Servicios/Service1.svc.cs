@@ -14,7 +14,46 @@ namespace Ulatina.PrograAvanzada.BLAplicacionWeb
     {
 
         //servicios, invocan una accion 
-        public string WhatDayIsToday()
+        public double Sumar(double valor1, double valor2)
+        {
+            double elResultado;
+            var laAccion = new Dominio.Acciones.Sumar();
+            elResultado = laAccion.CalculeLaSuma(valor1,valor2);
+            return elResultado;
+        }
+    
+
+    //public double Restar(double valor1, double valor2)
+    //{
+    //    //double elResultado;
+    //    //var laAccion = new Dominio.Acciones.Restar();
+    //    //elResultado = laAccion.ObtengaLaFecha();
+    //    //return elResultado;
+    //}
+
+    //public double Multiplicar(double valor1, double valor2)
+    //{
+    //    double elResultado;
+    //    var laAccion = new Dominio.Acciones.Multiplicar();
+    //    elResultado = laAccion.ObtengaLaFecha();
+    //    return elResultado;
+    //}
+
+    //public double Dividir(double valor1, double valor2)
+    //{
+    //    double elResultado;
+    //    var laAccion = new Dominio.Acciones.Dividir();
+    //    elResultado = laAccion.ObtengaLaFecha();
+    //    return elResultado;
+    //}
+
+
+
+
+
+
+
+    public string WhatDayIsToday()
         {
             string elResultado;
             var laAccion = new Dominio.Acciones.ObtenerFechaActual();

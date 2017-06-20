@@ -17,5 +17,12 @@ namespace Ulatina.PrograAvanzada.AplicacionWeb
             //lblFechaRecibida.Text = cldFechaEnviada.SelectedDate.ToString("dd/mm/yyyy");
             lblFechaRecibida.Text = cldFechaEnviada.SelectedDate.ToShortDateString();
         }
+
+        protected void btnSumar_Click(object sender, EventArgs e)
+        {
+            var laAccion = new Acciones.InvocarLaSuma();
+            var elResultado = laAccion.CalcularSuma(txtValor1.Text,txtValor2.Text);
+            Resultado.Text = elResultado;
+        }
     }
 }
