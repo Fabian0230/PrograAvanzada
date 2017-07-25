@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Ulatina.PrograAvanzada.AW.WCF.Especificaciones
 {
-    internal class Productos
+    public class Productos
     {
         public Productos()
         {

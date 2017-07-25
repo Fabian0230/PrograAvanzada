@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Ulatina.PrograAvanzada.AW.WCF.Acciones
 {
-    internal class Productos
+    public class Productos
     {
         public Productos()
         {

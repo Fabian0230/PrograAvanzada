@@ -183,6 +183,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdventureWorksContext.cs" />
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\IdentityConfig.cs" />
@@ -197,6 +198,7 @@
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="ProductsController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -257,6 +259,12 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Products\Create.cshtml" />
+    <Content Include="Views\Products\Delete.cshtml" />
+    <Content Include="Views\Products\Details.cshtml" />
+    <Content Include="Views\Products\Edit.cshtml" />
+    <Content Include="Views\Products\Index.cshtml" />
+    <Content Include="Views\Products\MisDetallesPorProductNumber.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -275,6 +283,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Ulatina.PrograAvanzada.AW.WCF\Ulatina.PrograAvanzada.AW.WCF.csproj">
+      <Project>{e0c025ff-4cfe-4a58-aaf6-81b90117abd8}</Project>
+      <Name>Ulatina.PrograAvanzada.AW.WCF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Ulatina.PrograAvanzada.Model\Ulatina.PrograAvanzada.Model.csproj">
+      <Project>{d2823fc3-d5ad-4a1c-acdc-c3360886e042}</Project>
+      <Name>Ulatina.PrograAvanzada.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

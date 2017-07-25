@@ -13,9 +13,16 @@ namespace Ulatina.PrograAvanzada.AW.WCF
     public class Service1 : IService1
     {
 
+       public IList<Model.Product> ListarTodos()
+        {
+            decimal elPrecioInferior = 10, elPrecioSuperior = 20;
+            var laAccion = new Acciones.Productos();
+            var losProductos = laAccion.BuscarProductoPorRangoDePrecio(elPrecioInferior, elPrecioSuperior);
+            return losProductos;
+        }
 
-        
-       public Model.Product EncontrarProductoPorNumero(string elNumero)
+
+        public Model.Product EncontrarProductoPorNumero(string elNumero)
         {
             var laAccion = new Acciones.Productos();
             var elProducto = laAccion.EncontrarProductoPorNumero(elNumero);
