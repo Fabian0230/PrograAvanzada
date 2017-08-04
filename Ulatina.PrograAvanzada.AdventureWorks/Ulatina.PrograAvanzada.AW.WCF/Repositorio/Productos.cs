@@ -21,6 +21,12 @@ namespace Ulatina.PrograAvanzada.AW.WCF.Repositorio
         public Productos()
         {
         }
+        //Primer consulta Proyecto
+        public IList<Model.Product> BuscarProductoPorNombre(string elNombre)
+        {
+            var losProductos = _Contexto.Product.Where(p => p.Name.Contains(elNombre)).ToList();
+            return losProductos;
+        }
 
         public Model.Product EncontrarProductoPorNumero(string elNumero)
         {

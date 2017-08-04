@@ -18,6 +18,7 @@ namespace Ulatina.PrograAvanzada.AdventureWorks.Dominio.Acciones
                 elProductViewModel.ProductID = elProducto.ProductID;
                 elProductViewModel.ProductName = elProducto.Name;
                 elProductViewModel.ProductNumber = elProducto.ProductNumber;
+                elProductViewModel.SellEndDate = elProducto.SellEndDate;
                 if (elProducto.ProductModel != null)
                     elProductViewModel.ProductModelName = elProducto.ProductModel.Name;
                 else
@@ -33,6 +34,10 @@ namespace Ulatina.PrograAvanzada.AdventureWorks.Dominio.Acciones
                 else
                     elProductViewModel.ProductCategoryName = string.Empty;
                 elResultado.Add(elProductViewModel);
+                if (elProducto.SellEndDate != null)
+                    elProductViewModel.SellEndDate = elProducto.SellEndDate;
+                else
+                    elProductViewModel.SellEndDate = elProducto.SellEndDate;
             }
             return elResultado;
 

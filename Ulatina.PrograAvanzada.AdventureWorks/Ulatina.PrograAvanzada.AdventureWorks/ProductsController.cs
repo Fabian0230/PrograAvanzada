@@ -36,6 +36,15 @@ namespace Ulatina.PrograAvanzada.AdventureWorks
             var productsViewModel = laAccionViewModel.ConviertaListaDeProductos(products);
             return View(productsViewModel.ToList());
         }
+        //Primera consulta Proyecto
+        public ActionResult IndexViewModel1()
+        {   
+            var laAccion = new Ulatina.PrograAvanzada.AW.WCF.Acciones.Productos();
+            var products = laAccion.EncontrarProductoPorNombre("Crankarm");
+            var laAccionViewModel = new Dominio.Acciones.ConvertirProductEnViewModel();
+            var productsViewModel = laAccionViewModel.ConviertaListaDeProductos(products);
+            return View(productsViewModel.ToList());
+        }
 
         // GET: Products/Details/5
         public ActionResult Details(int? id)

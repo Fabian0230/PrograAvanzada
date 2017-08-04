@@ -28,6 +28,12 @@ namespace Ulatina.PrograAvanzada.AW.WCF
             var elProducto = laAccion.EncontrarProductoPorNumero(elNumero);
             return elProducto;
         }
+        public IList<Model.Product> EncontrarProductoPorNombre(string elNombre)
+        {
+            var laAccion = new Acciones.Productos();
+            var elProducto = laAccion.EncontrarProductoPorNombre(elNombre);
+            return elProducto;
+        }
 
 
         public IList<Model.Product> BuscarProductoPorRangoDePrecio(decimal elPrecioInferior, decimal elPrecioSuperior)

@@ -26,6 +26,9 @@ namespace Ulatina.PrograAvanzada.AW.WCF
         IList<Model.Product> BuscarProductoPorRangoDePrecio(decimal elPrecioInferior, decimal elPrecioSuperior);
         [OperationContract]
         IList<Model.Product> ListarTodos();
+        [OperationContract]
+        IList<Model.Product> EncontrarProductoPorNombre(string elNombre);
+
 
 
 

@@ -268,6 +268,7 @@
     <Content Include="Views\Products\Index.cshtml" />
     <Content Include="Views\Products\MisDetallesPorProductNumber.cshtml" />
     <Content Include="Views\Products\IndexViewModel.cshtml" />
+    <Content Include="Views\Products\IndexViewModel1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
